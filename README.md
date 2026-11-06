@@ -1,5 +1,7 @@
 # Static Ad Production Skill
 
+> New here, person or AI agent? Read [START-HERE.md](START-HERE.md) first.
+
 A standalone, reference-led static-ad production procedure. No access to our OpenClaw workspace is required.
 
 ## Use
