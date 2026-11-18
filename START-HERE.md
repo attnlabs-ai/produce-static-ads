@@ -1,12 +1,10 @@
-# produce-static-ads: Start Here
+# Start Here
 
-**This repository is public.** It is a standalone, reference-led procedure for producing static ads with an AI assistant. It holds knowledge only: no generator, credentials or private workspace files.
+**This repository is public.** It contains a portable static-ad production procedure, not a runnable UAM distribution.
 
-## Read in this order
+1. Read [README.md](README.md) for scope and the latest synchronization date.
+2. Follow [SKILL.md](SKILL.md) for the ordered production and verification process.
+3. If you already have the separate UAM source, consult [implementation notes](references/uam-implementation.md).
+4. Review [CHANGELOG.md](CHANGELOG.md) for what changed.
 
-1. `README.md`: how to use it.
-2. `SKILL.md`: the procedure itself.
-
-## Rules
-
-- This repo is public. Never add client material, credentials, private links or internal notes.
+Never add credentials, client material, private links or internal notes. Use your own tools and assets. A provider model name is a dated implementation snapshot, not proof that your account has access. A saved image is not proof of approval or delivery.

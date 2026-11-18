@@ -1,20 +1,30 @@
 # Static Ad Production Skill
 
-> New here, person or AI agent? Read [START-HERE.md](START-HERE.md) first.
+> New here? Read [START-HERE.md](START-HERE.md) first.
 
-A standalone, reference-led static-ad production procedure. No access to our OpenClaw workspace is required.
+A standalone, reference-led static-ad production procedure, synchronized with the **2026-11-18 UAM workflow**.
 
 ## Use
 
-Read [SKILL.md](SKILL.md), then supply it to your AI assistant together with your brief, approved copy, product images and layout references. For agents supporting folder-based skills, place this directory in your agent's documented skill location. For other assistants, attach SKILL.md as instructions.
+Read [SKILL.md](SKILL.md), then give it to your AI assistant with your brief, current product photos, exact copy, layout references and existing authorization. Agents that support folder-based skills can load this directory through their documented skill location.
 
-You need your own image-generation/editing tool, credentials, asset permissions and paid-generation budget. This repository contains knowledge, not a generator, API integration or private workspace scripts. Constrained edits require a tool that actually supports them.
+Bring your own generation/editing tools, credentials, asset permissions and paid-generation budget. **This is knowledge, not the UAM executable, an API service or an automatic updater.** The optional [implementation map](references/uam-implementation.md) names components in a separately installed UAM workspace; none are bundled here.
 
-Start with one proof before a batch. Review the final image against the independent copy, product, reference and geometry gates. Keep failed candidates separate from passed finals.
+## Latest changes
+
+- Complete product truth for every visible pack, with current artwork and expected label text.
+- A named reference mechanism and a zone-by-zone exact-copy map.
+- Pack words and copy checked before design review.
+- A frozen punch list, edit-first repairs and blind comparison against the previous best.
+- Four paid candidates per slot by default, edits included; changed inputs after two consecutive same-cause failures.
+- No score-only acceptance, finished-ad compositing or scratch rerolls of accepted candidates.
+- Durable task receipts, native output and verified delivery.
+- Current source routing snapshot: GPT Image 2.6 Flare through KIE, with explicit user choices preserved.
+
+See [CHANGELOG.md](CHANGELOG.md) for the dated update. Last synchronization does not imply ongoing automatic syncing.
 
 ## Scope
 
-Reference transfer, product locking, batch design, surgical revisions, bounded retries, independent QA and verified delivery. No client assets, private examples or credentials are included. No measured-performance claims are made.
+Reference transfer, product locking, controlled proofs/batches, revisions, independent QA and verified delivery. No credentials, client assets, private examples, internal links or generator code are included. No creative-performance improvement is claimed.
 
-This is a shareable review package. Publishing it does not install or approve the corresponding pending skill in the source workspace, or authorize ad launches.
-
+Publishing this package does not install or approve a skill in the source workspace. Generation, technical acceptance, owner approval and ad launch remain separate.
